@@ -1,6 +1,6 @@
 {
   "name": "pkg.macro",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fetch properties of your project's `package.json` at compile time.",
   "main": "dist/index.js",
   "types": "index.d.ts",
