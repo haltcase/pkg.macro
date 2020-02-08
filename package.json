@@ -12,6 +12,14 @@
     "dist",
     "index.d.ts"
   ],
+  "keywords": [
+    "babel-plugin-macros",
+    "babel-macros",
+    "macro",
+    "package",
+    "json",
+    "constants"
+  ],
   "scripts": {
     "build": "tsc",
     "pretest": "npm run build",
