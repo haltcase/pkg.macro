@@ -82,4 +82,6 @@ found are always welcome.
 
 MIT © [Bo Lingen / citycide](https://github.com/citycide)
 
+[babel]: https://babeljs.io
+[babel-plugin-macros]: https://github.com/kentcdodds/babel-plugin-macros
 [param.macro]: https://github.com/citycide/param.macro
