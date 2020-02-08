@@ -1,0 +1,38 @@
+{
+  "name": "pkg.macro",
+  "version": "1.0.0",
+  "description": "Fetch properties of your project's `package.json` at compile time.",
+  "main": "dist/index.js",
+  "types": "index.d.ts",
+  "license": "MIT",
+  "engines": {
+    "node": ">=10.8.0"
+  },
+  "files": [
+    "dist",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "pretest": "npm run build",
+    "test": "ava",
+    "prepublishOnly": "npm test"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.8.4",
+    "babel-plugin-macros": "^2.8.0",
+    "find-up": "^4.1.0",
+    "pick-deep": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/types": "^7.8.3",
+    "@types/babel-plugin-macros": "^2.8.0",
+    "@types/node": "^10.8.x",
+    "@types/pick-deep": "^1.0.0",
+    "ava": "^3.2.0",
+    "dedent": "^0.7.0",
+    "mock-require": "^3.0.3",
+    "typescript": "^3.7.5"
+  }
+}
